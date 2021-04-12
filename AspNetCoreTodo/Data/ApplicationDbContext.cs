@@ -12,5 +12,7 @@ namespace AspNetCoreTodo.Data
             : base(options)
         {
         }
+        
+        public DbSet<TodoItem> Items { get; set; }
     }
 }
